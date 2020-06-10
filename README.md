@@ -17,3 +17,5 @@
 #### '3. docker-compose up'
 
 #### '#### Then open "http://127.0.0.1:8000/" in your browser'
+
+ ![alt text](https://github.com/bauxitex3/team-olympians-company-microservice/blob/master/sample.png)

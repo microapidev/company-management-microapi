@@ -3,8 +3,14 @@ from .models import Company
 
 
 class CompanySerializers(serializers.ModelSerializer):
-
+    see_detail =  serializers.HyperlinkedIdentityField(view_name='detail', lookup_field='pk' )
 
     class Meta():
         model = Company
-        fields = '__all__'
+        fields = (
+                'see_detail',
+                'name',
+                'address',
+                'phoneNumber',
+                'email',
+                )
