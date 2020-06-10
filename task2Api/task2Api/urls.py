@@ -10,6 +10,6 @@ schema_view = get_swagger_view(title='OLYMPIANS')
 urlpatterns = [
     url(r'^$', schema_view),   
     path('companies/', views.CompanyList.as_view(), name='listview'), 
-    path('companies/<int:pk>', views.CompanyDetail.as_view(), name='detail'),
+    path('companies/<int:pk>/', views.CompanyDetail.as_view(), name='detail'),
     path('admin/', admin.site.urls),   
 ] 
