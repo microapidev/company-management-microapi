@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # team olympian_microservice
 
 ### To Run the Program
@@ -11,7 +11,7 @@
 
 #### 'RUN the following commands'
 
-#### '1. docker-compose run web python task2Api/manage.py migrate'
+#### '1. docker-compose run web python olympians/manage.py migrate'
 
 #### '2. docker-compose build'
 
@@ -19,9 +19,8 @@
 
 #### '#### Then open "http://127.0.0.1:8000/" in your browser'
 
- ![alt text](https://github.com/bauxitex3/team-olympians-company-microservice/blob/master/sample.png)
-=======
+
+
 # team-olympians-company-microservice
-github repo for team olympians hng internship task.
-a dockerized microservice for adding,updating and deleting companies.
->>>>>>> a7f65941961c9dd329e796c1f8949f0c6018c294
+
+

@@ -1,0 +1,5 @@
+Django==2.1.5
+django-cors-headers==2.2.0
+djangorestframework==3.8.2
+python-dotenv==0.13.0
+pytz==2020.1
