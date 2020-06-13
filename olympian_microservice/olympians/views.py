@@ -43,12 +43,12 @@ class CompanyList(generics.ListCreateAPIView):
         serializer.save(owner=self.request.user)
 
 
-    def get(self, request, format=None):
-        content = {
-            'user': unicode(request.user),  # `django.contrib.auth.User` instance.
-            'auth': unicode(request.auth),  # None
-        }
-        return Response(content)
+    # def get(self, request, format=None):
+    #     content = {
+    #         'user': unicode(request.user),  # `django.contrib.auth.User` instance.
+    #         'auth': unicode(request.auth),  # None
+    #     }
+    #     return Response(content)
 
 class CompanyDetail(generics.RetrieveUpdateDestroyAPIView):
     """
